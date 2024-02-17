@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Russo One", sans-serif;
+  }
+  
