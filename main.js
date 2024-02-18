@@ -19,6 +19,6 @@ app.use(express.json());
 app.use("/", page_routes);
 
 // Запускаем сервер на порту 5000 и выводим сообщение в консоль при успешном запуске
-app.listen(5000, () => {
-  console.log("server started on http://localhost:5000");
+app.listen(8000, () => {
+  console.log("server started on http://localhost:8000");
 });

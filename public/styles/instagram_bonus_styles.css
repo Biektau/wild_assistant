@@ -1,5 +1,23 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #282828;
+  padding: 20px;
+}
+
 .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #ff595e;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton{
+  padding: 10px;
+  background-color: #ff9691;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
 }
